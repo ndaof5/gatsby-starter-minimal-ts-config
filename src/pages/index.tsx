@@ -12,8 +12,6 @@ import yamlWorker from "../../node_modules/monaco-yaml/yaml.worker.js";
 window.MonacoEnvironment = {
   getWorker(moduleId, label) {
       if (label === "yaml") {
-       console.log(import.meta.url, "hello word", 'line 15')
-
         return new Worker("../../node_modules/monaco-yaml/yaml.worker.js");
       }
   },
