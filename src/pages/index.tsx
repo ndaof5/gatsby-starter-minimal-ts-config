@@ -6,7 +6,6 @@ import styled from "styled-components";
 import { configureMonacoYaml } from "monaco-yaml";
 import configmap from "./configmap.png";
 import gheader from "./sideheader.png";
-import yamlWorker from "../../node_modules/monaco-yaml/yaml.worker.js";
 
 // @ts-ignore
 window.MonacoEnvironment = {
